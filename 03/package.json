@@ -1,0 +1,14 @@
+{
+  "name": "currency-bot",
+  "version": "1.0.0",
+  "description": "Educational Telegram currency bot",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "set-webhook": "node set-webhook.js"
+  },
+  "dependencies": {
+    "fastify": "^5.12.3"
+  }
+}
