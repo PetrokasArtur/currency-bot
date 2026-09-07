@@ -3,7 +3,7 @@ process.loadEnvFile(new URL('../.env', import.meta.url));
 const BOT_TOKEN = process.env.BOT_TOKEN;
 
 const WEBHOOK_URL =
-  'https://smtp-facilities-west-aaron.trycloudflare.com/webhook/telegram';
+   'https://currency-bot-mu.vercel.app/webhook/telegram';
 
 const response = await fetch(
   `https://api.telegram.org/bot${BOT_TOKEN}/setWebhook`,
