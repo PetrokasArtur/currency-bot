@@ -1,0 +1,11 @@
+{
+  "name": "lesson-2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "npx supabase functions deploy hello-world"
+  },
+  "devDependencies": {
+    "supabase": "^2.117.0"
+  }
+}
